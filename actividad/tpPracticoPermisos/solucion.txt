@@ -1,0 +1,3 @@
+El numero de permisos seria 7
+ejecutaria el comando
+chmod +764 documento1.txt
