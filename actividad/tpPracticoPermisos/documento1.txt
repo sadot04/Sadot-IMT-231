@@ -1,2 +1,0 @@
-Nombre: Sadot Antonio Torrejon Maldonado
-Version de SO: Ubuntu 24.04.1 LTS

@@ -1,0 +1,16 @@
+EJercicio 1
+Los permisos que daria serian 6 para dueño, 4 para el grupo y 0 para otros, el comando seria
+chmod 640 documento1.txt
+
+EJercicio 2
+El comando para los permisos seria, 7 para que el propietario pueda ejecutar, modificar y leer, y 1 para que otros usuarios y grupos solo puedan ejecutarlo
+chmod 711 script.sh
+
+Ejercicio 3
+El numero de permisos seria 6 para que el propietario pueda leer y escribir, y 0 para grupos y otros usuarios no peudan acceder
+chmod 600 config.cfg
+
+Ejercicio 4
+El comando que usaria seria
+chmod 400 secreto.key
+Para que solo el propietario pueda leer y nadie mas tenga acceso
