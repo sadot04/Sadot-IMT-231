@@ -1,0 +1,39 @@
+Ejercicio 1
+Para que solo esl dueño pueda leer y escribir, y otros usuarios solo puedan leerlo el comando seria
+chmod 644 registro.log
+
+EJercicio 2
+Para que solo el dueño pueda leer, escribir y ejecutar, y nadie pueda acceder el comando seria
+chmod 700 ejecutable.sh
+
+Ejercicio 3
+Para que todos puedan leer y escribir en èl, el comando seria
+chmod 666 publico.txt
+
+EJercicio 4
+Para que solo el dueño pueda leer y escribir, y nadie deba tener acceso el comando seria
+chmod 600 respaldo.db
+
+EJercicio 5
+Para que todos puedan leerlo, pero solo el dueño pueda modificarlo el comando seria
+chmod 644 instrucciones.txt
+
+EJercicio 6
+Para qeu solo el dueño pueda leerlo y nadie mas tenga acceso el comando seria
+chmod 400 secreto.key
+
+EJercicio 7
+Para que solo el dueño pueda ejecutar el archivo y nadie pueda leer ni modificarlo el permido seria
+chmod 100 ejecutar_programa
+
+Ejercicio 8
+Para que todos puedas leer y modificar el archivo el comando seria
+chmod 666 compartido.doc
+
+Ejercicio 9
+Para que solo el dueño pueda ejecutarlo y los demas puedan ejecutarlo pero no modificarlo el comando seria
+chmod 711 solo_ejecucion
+
+EJercicio 10
+Para que solo el dueño pueda leer y escribir, el grupo pueda leerlo y otros no puedan accerder el comando seria
+chmod 640 reporte_admin.pdf
