@@ -1,0 +1,147 @@
+Archivo de Respuestas: respuestas.txt
+
+Datos del Estudiante
+- Nombre Completo: Sadot Antonio Torrejon Maldonado
+- URL de GitHub de la carpeta del examen: 
+
+---
+
+## Tarea 1: Navegación y Creación de Carpetas
+
+- Permiso octal usado para restaurar permiso minimo de la carpeta primerParcial:chmod -R 777 primerParcial231  
+
+
+- Comandos usados y justificaciones :
+Para ver la fecha
+date
+Vamos a la carpeta primerParcial231
+cd primerParcial231
+Creamos Tarea1
+mkdir Tarea1
+
+Creamos extraFolder
+mkdir extraFolder
+
+Creamos notesExtra.txt
+touch notesExtra.txt
+
+ir atras
+cd ..
+
+crear archivo para el date
+nano fechaTarea1.txt
+
+---
+
+## Tarea 2: Permisos en Formato Octal
+- Permiso octal usado para esta tarea : chmod 600 mainConfig.cfg 
+
+
+- Comandos usados y justificaciones :
+vamos al directorio 
+cd Tarea2
+
+damos permisos para que solo el propietario pueda leer y escribir
+chmod 600 mainConfig.cfg 
+
+creamos el archivo para el date
+nano fechaTarea2.txt
+
+ingresamos a mainConfig para anadir contenido
+nano mainConfig.cfg 
+
+---
+## Tarea 3: Scripting Básico 
+- Permiso octal usado para el `basicScript.sh`: chmod 774 basicScript.sh 
+damos permisos para que propietario y grupo puedan ejecutar y otros usuarios solo puedan leerlo
+
+- Comandos usados y justificaciones :
+modificamos el script
+nano basicScript.sh 
+
+Pedimos que ingrese el nombre
+echo "Ingrese el nombre de usuario"
+
+Leemos la variable nombre
+read nombre
+
+Imprimimos el saludo 
+echo "Hola, $nombre, buenas tardes"
+
+Creamos la carpeta ubicaciones
+mkdir ubicaciones
+
+ponemos la ubicacion en el archivo ubicacion.txt
+echo "$(pwd)" >> /home/sadot/Documentos/ucb/Sadot-IMT-231/Parcial/primerParcial231/tarea3/ubicaciones/ubicacion.txt
+
+ponemos el date en el archivo fechaTarea3.txt
+echo "$(date)" >> fechaTarea3.txt
+
+hacemos el ls -l
+ls -l
+
+Finaliza el script
+echo "ha finalizado el script" 
+
+---
+## Tarea 4: Edición con nano o vim 
+
+- para que usamos el comando `cat` ?:
+Usamos este comando para ver el contenido de un archivo
+	
+- Comandos usados y justificaciones :
+
+Obtenemos el date
+date
+
+Obtengo mi usuario
+whoami
+
+Obtengo la version del kernel
+uname -r
+
+Vemos la distribucion de linux
+cat /etc/os-release
+
+Verificamos la informacion
+cat infoDocument.txt 
+
+
+---
+## Tarea 5: Final
+
+- para que usamos el comando `tree -p` y para que su argumento `-p` ?:
+
+El comando tree nos sirve para ver los directorios de una forma mas visual
+- Permiso octal para `entregaFinal.txt`: 
+chmod 444 entregaFinal.txt 
+Para que solo tenga permisos de lectura
+
+- Comandos usados y justificaciones :
+obtenemos date
+date
+
+Creamos la carpeta tarea5
+mkdir tarea5
+
+Ponemos date en el archivofechaTarea5.txt
+nano fechaTarea5.txt
+
+Creamos entregaFinal.txt
+touch entregaFinal.txt
+
+cd ..
+Para ir atras
+
+Copiamos el arbol
+tree -p
+
+Entramos a tarea5
+cd tarea5
+
+Copiamos el tree a entregaFinal.txt
+nano entregaFinal.txt 
+
+Modificamos los permisos
+chmod 444 entregaFinal.txt 
+

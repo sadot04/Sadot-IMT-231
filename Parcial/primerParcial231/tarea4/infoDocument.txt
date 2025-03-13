@@ -1,0 +1,5 @@
+1. jue 13 mar 2025 11:41:12 -04
+2. sadot
+3. 6.11.0-17-generic
+4. "Ubuntu 24.04.2 LTS"
+5. Este es mi documento de mi tarea 4

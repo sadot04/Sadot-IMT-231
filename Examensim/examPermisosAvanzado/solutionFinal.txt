@@ -1,0 +1,54 @@
+Dar permisos a las carpetas
+
+chmod -R 777 examPermisosAvanzado
+
+Tarea 1
+Pongo informacion en los archivos
+cd privateFiles
+ls -la >> configMain.cfg
+
+echo "Informacion confidencial" >> credentials.txt
+echo "Informacion confidencial" >> configMain.cfg
+
+Tarea 2
+
+Para que solo el propietario pueda leer y escribir en el archivo
+chmod 600 credentials.txt 
+chmod 600 configMain.cfg 
+
+echo "whoami" >> credentials.txt
+echo "uname -r" >> credentials.txt
+
+echo "# Configuración Principal
+PORT=8080
+MODE=production " >> configMain.cfg
+
+Tarea 3
+
+Damos permisos para que cualquiera pueda leer, crear y escribir
+chmod 777 publicZone
+
+hacemos un codigo
+echo "read nombre" >> runMe.sh 
+echo 'echo "Hola mi nombre es $nombre"' >>runMe.sh 
+
+indicamos lo que hace el codigo
+
+echo "En la primera linea del script se crea una variable nombre, la cual va a ser leida, y debe ser escrita desde el teclado" >>readMePublic.md 
+echo "En la segunda linea se imprime un mensaje usando la variable ingresada por el usuario" >
+>readMePublic.md 
+
+damos permisos para que sea ejecutable por todos
+chmod 777 runMe.sh 
+el sticky bit -rwxrwxrwx
+indica que todos pueden ejecutar el script
+
+Tarea 4
+
+los permisos octales son
+Para que los miembros del grupo tengan lectura y escritura
+chmod 770 sharedGroup 
+
+Para que yo pueda ejecutarlo, y el grupo dolo pueda leer y escribir
+chmod 760 scriptGroupShare.sh 
+
