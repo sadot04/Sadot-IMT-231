@@ -2,7 +2,7 @@ Archivo de Respuestas: respuestas.txt
 
 Datos del Estudiante
 - Nombre Completo: Sadot Antonio Torrejon Maldonado
-- URL de GitHub de la carpeta del examen: 
+- URL de GitHub de la carpeta del examen: https://github.com/sadot04/Sadot-IMT-231/tree/main/Parcial 
 
 ---
 
@@ -111,6 +111,8 @@ cat infoDocument.txt
 ## Tarea 5: Final
 
 - para que usamos el comando `tree -p` y para que su argumento `-p` ?:
+
+Lo usamos para ver un arbol de las carpetas y archivos, el -p sirve para ver los permisos
 
 El comando tree nos sirve para ver los directorios de una forma mas visual
 - Permiso octal para `entregaFinal.txt`: 
